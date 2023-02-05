@@ -3,7 +3,7 @@ API to fetch latest videos sorted in reverse chronological order of their publis
 -----------------------------------------------------------------------------------------------------------------
 The server fetches latest videos async after every 10 minutes and saves it to the db.
 ![Homepage](Screenshots/Dashboard.jpg)
- 
+
 ## Tools and Technoligies used
 This whole backend code is Writtten in [Django](https://www.djangoproject.com/)
 For Running the cron job which run every minute I have used [django_crontab](https://github.com/kraiz/django-crontab) which runs every minute in backend to fetch data and upload it on sqlite database.
