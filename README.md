@@ -2,19 +2,19 @@
 API to fetch latest videos sorted in reverse chronological order of their publishing date-time from YouTube for a given tag/search query in a paginated response.
 -----------------------------------------------------------------------------------------------------------------
 The server fetches latest videos async after every 10 minutes and saves it to the db.
-![Homepage](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/Dashboard.jpg?raw=true)
+![Homepage](Screenshots/Dashboard.jpg)
  
 ## Tools and Technoligies used
 This whole backend code is Writtten in [Django](https://www.djangoproject.com/)
 For Running the cron job which run every minute I have used [django_crontab](https://github.com/kraiz/django-crontab) which runs every minute in backend to fetch data and upload it on sqlite database.
-![database](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/database.jpg)
+![database](Screenshots/database.jpg)
 
 The Videos are stored in a paginated response, sorted in descending order of published datetime.
-![Pagination](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/Pagination.jpg)
+![Pagination](Screenshots/Pagination.jpg)
 
 
 Implement Search Autocomplete For Input Fields in Django
-![Search](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/search.jpg?raw=true)
+![Search](Screenshots/search.jpg?raw=true)
 
 This project is completely Dockerize
 
