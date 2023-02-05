@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+    webapp:
+        build: .
+        container_name: FamPayAssignment
+        volumes:
+            - ./YoutubeApi:/usr/src/YoutubeApi
+        ports:
+            - 8000:8000
