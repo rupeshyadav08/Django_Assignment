@@ -12,8 +12,9 @@ For Running the cron job which run every minute I have used [django_crontab](htt
 The Videos are stored in a paginated response, sorted in descending order of published datetime.
 ![Pagination](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/Pagination.png?raw=true)
 
-Implement Search Autocomplete For Input Fields in Django. 
-![Search](Screenshots/Pagination.png](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/search.png?raw=true)
+
+Implement Search Autocomplete For Input Fields in Django
+![Search](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/search.png?raw=true)
 
 This project is completely Dockerize
 
