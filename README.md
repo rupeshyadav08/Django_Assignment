@@ -14,7 +14,7 @@ The Videos are stored in a paginated response, sorted in descending order of pub
 
 
 Implement Search Autocomplete For Input Fields in Django
-![Search](Screenshots/search.jpg?raw=true)
+![Search](Screenshots/search.PNG)
 
 This project is completely Dockerize
 
