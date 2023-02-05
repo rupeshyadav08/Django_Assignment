@@ -7,13 +7,13 @@ The server fetches latest videos async after every 10 minutes and saves it to th
 ## Tools and Technoligies used
 This whole backend code is Writtten in [Django](https://www.djangoproject.com/)
 For Running the cron job which run every minute I have used [django_crontab](https://github.com/kraiz/django-crontab) which runs every minute in backend to fetch data and upload it on sqlite database.
-![database](Screenshots/database.png)
+![database]()
 
 The Videos are stored in a paginated response, sorted in descending order of published datetime.
 ![Pagination] (Screenshots/Pagination.png)
 
 Implement Search Autocomplete For Input Fields in Django
-![Search](Screenshots/search.png)
+![Search]([Screenshots/Pagination.png](https://github.com/rupeshyadav08/FamPay_Assignment/blob/master/Screenshots/search.png))
 
 This project is completely Dockerize
 
