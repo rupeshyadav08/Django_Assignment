@@ -27,4 +27,4 @@ This project is completely Dockerize
 - Add key in `settings.py` file
 - To set up the Cron Job usin `django_crontab` follow [This](https://pypi.org/project/django-crontab/) 
 - -- (Optional) If You are setting up the jobs or running any command in docker container just add `docker exec` before every command.
-- -- For locally to run the server you can use `python mange.py runserver`
+- -- For locally to run the server you can use `python mange.py runserver`.
